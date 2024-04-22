@@ -8,9 +8,7 @@ const Header = () => {
   const dispatch = useDispatch();
   return (
     <header>
-      <div className="title">
-        <h1>Galata Doksanlar</h1>
-      </div>
+      <div className="title"></div>
       <div className="links-container">
         <ul className="links">
           {links.map((link) => {

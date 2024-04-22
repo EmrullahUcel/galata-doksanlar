@@ -7,16 +7,16 @@ header {
   align-items: center;
   padding: 0;
   margin-bottom: 20px;
+
   .title {
     display: flex;
     background-color: #e7e7e7;
     width: 100%;
     max-width: 500px;
+    min-height: 350px;
     padding: 40px 25px;
-    h1 {
-      font-weight: 700;
-      font-size: 30px;
-    }
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdcYOo23IxA34wWb8BUzwrGnfJYUygRi5l8Db5qyQmiQ&s");
+    background-size: cover;
   }
   .links-container {
     overflow-x: auto;
