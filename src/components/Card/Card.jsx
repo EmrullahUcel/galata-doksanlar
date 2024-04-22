@@ -9,7 +9,7 @@ const Card = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [response1, response2, response3] = await Promise.all([
+        const [response1, response2, response3, response4] = await Promise.all([
           databases.listDocuments(
             "66255569b4222891c12c",
             "66255572a9a0e2b3abb1"
@@ -22,11 +22,16 @@ const Card = () => {
             "66255569b4222891c12c",
             "662670768cc435989105"
           ),
+          databases.listDocuments(
+            "66255569b4222891c12c",
+            "6626a6b9585a34a078b5"
+          ),
         ]);
         const combinedResults = [
           ...response1.documents,
           ...response2.documents,
           ...response3.documents,
+          ...response4.documents,
         ];
         setFetch(combinedResults);
       } catch (error) {

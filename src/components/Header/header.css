@@ -14,9 +14,10 @@ header {
     width: 100%;
     max-width: 500px;
     min-height: 350px;
-    padding: 40px 25px;
-    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdcYOo23IxA34wWb8BUzwrGnfJYUygRi5l8Db5qyQmiQ&s");
-    background-size: cover;
+
+    img {
+      width: 100%;
+    }
   }
   .links-container {
     overflow-x: auto;

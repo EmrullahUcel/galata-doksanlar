@@ -8,7 +8,12 @@ const Header = () => {
   const dispatch = useDispatch();
   return (
     <header>
-      <div className="title"></div>
+      <div className="title">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdcYOo23IxA34wWb8BUzwrGnfJYUygRi5l8Db5qyQmiQ&s"
+          alt=""
+        />
+      </div>
       <div className="links-container">
         <ul className="links">
           {links.map((link) => {
