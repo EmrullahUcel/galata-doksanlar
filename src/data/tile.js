@@ -1,4 +1,5 @@
 export const links = [
+  { name: "Pasta-Tatlı", url: "cakes" },
   { name: "Soğuk İçecekler", url: "cold-drinks" },
   { name: "Soğuk Kahveler", url: "iced-coffees" },
   { name: "Sıcak Kahveler", url: "hot-coffees" },

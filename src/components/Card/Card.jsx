@@ -44,7 +44,13 @@ const Card = () => {
           return (
             <div key={item.$id} className="card-container">
               <div className="card-wrapper">
-                <img src={item.imgUrl || "/src/assets/coffee.jpg"} alt="" />
+                <img
+                  src={
+                    item.imgUrl ||
+                    "https://www.kitapfabrikasi.com/tasarim-odasi/hazir-kitaplar/2014/374/zkf1-90lar.jpg"
+                  }
+                  alt=""
+                />
                 <div className="card-description">
                   <h1>{item.name}</h1>
                   <p>{item.description}</p>
