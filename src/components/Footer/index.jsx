@@ -5,7 +5,9 @@ const Footer = () => {
     <footer>
       <h3>Qr menu için iletişim</h3>
       <p>emrullahucel@gmail.com</p>
-      <NavLink to="/admin">admin paneli</NavLink>
+      <NavLink className="hidden" to="/admin">
+        admin paneli
+      </NavLink>
     </footer>
   );
 };
