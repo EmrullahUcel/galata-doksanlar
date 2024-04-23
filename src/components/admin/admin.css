@@ -1,0 +1,44 @@
+.form-div {
+  width: 100%;
+  display: flex;
+  max-height: 100%;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  form {
+    max-width: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    input {
+      width: 100%;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+    label {
+      display: block;
+      width: 100%;
+    }
+    .submit , .update {
+      max-width: 50%;
+      padding: 15px 20px;
+      background-color: #48cae4;
+      color: white;
+      border: none;
+      border-radius: 20px;
+      font-size: 18px;
+      font-weight: 900;
+    }
+    .product-container {
+      max-width: 400px;
+      margin: auto;
+    }
+    .update {
+      background-color: #06d6a0;
+    }
+  }
+}
+
